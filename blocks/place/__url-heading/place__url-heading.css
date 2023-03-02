@@ -1,5 +1,5 @@
 .place__url-heading {
-    margin: 0 0 9px;
+    margin: 0 0 5px;
     padding: 0;
 
     color: #AAAAAA;
@@ -13,3 +13,8 @@
 }
 
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .place__url-heading {
+        margin: 0 0 9px;
+    }
+}

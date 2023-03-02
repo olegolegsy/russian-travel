@@ -25,8 +25,9 @@
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .photo-grid {
         margin: 64px 0 0;
-        /* padding: 0 16px; */
+        padding: 0 16px;
+        gap: 12px;
         
-        grid-template-columns: minmax(320px, 1fr);
+        grid-template-columns: minmax(288px, 1fr);
     }
 }
