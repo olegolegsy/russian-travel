@@ -16,13 +16,13 @@
     padding-top: calc(740 / 1184 * 100%);
   }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
     .cover {
       margin: 88px 0;
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .cover {
       margin: 64px 0;
     }
